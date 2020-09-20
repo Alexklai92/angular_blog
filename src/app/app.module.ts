@@ -7,6 +7,7 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { PostItemComponent } from './post-item/post-item.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { EditComponent } from './admin/edit/edit.component';
+import { CreateComponent } from './admin/create/create.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EditComponent } from './admin/edit/edit.component';
     MainLayoutComponent,
     PostItemComponent,
     DashboardComponent,
-    EditComponent
+    EditComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
