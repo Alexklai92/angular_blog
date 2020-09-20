@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { PostItemComponent } from './post-item/post-item.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainLayoutComponent,
-    PostItemComponent
+    PostItemComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
